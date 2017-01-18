@@ -1,6 +1,6 @@
 import Baby from 'babyparse'
 
-class Nicknames {
+class nicknames {
 
   // Returns the array from line from names.csv where first value == name.
   static retreiveRow(rows, name) {
