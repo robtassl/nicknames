@@ -38,7 +38,7 @@ class nicknames {
       name = name.toLowerCase()
       let rows = Baby.parseFiles('./names.csv').data
 
-      result = Nicknames.retreiveRows(rows, name)
+      result = nicknames.retreiveRows(rows, name)
     }
 
     return result
@@ -60,8 +60,8 @@ class nicknames {
 
       // Cross reference, get all of name1s related names, see if name2 is included,
       // then get all of name2s related names, see if name1 is included.
-      let result1 = !!Nicknames.get(name1).find(name => name === name2)
-      let result2 = !!Nicknames.get(name2).find(name => name === name1)
+      let result1 = !!nicknames.get(name1).find(name => name === name2)
+      let result2 = !!nicknames.get(name2).find(name => name === name1)
       result = (result1 || result2)
     }
 
@@ -70,4 +70,4 @@ class nicknames {
 
 }
 
-module.exports = Nicknames
+module.exports = nicknames
