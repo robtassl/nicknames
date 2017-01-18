@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/robtassl/nicknames#readme",
   "dependencies": {
-    "babyparse": "^0.4.6",
     "babel-core": "^6.21.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-latest": "^6.16.0"
