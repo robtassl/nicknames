@@ -18,4 +18,4 @@ Nicknames.match('Matt', 'Robert')
 //false
 ```
 
-Source of `names.csv` borrowed from https://github.com/carltonnorthern/nickname-and-diminutive-names-lookup. Goal is to get the `names.csv` file better populated over time.
+Source of `names.csv` borrowed from https://github.com/carltonnorthern/nickname-and-diminutive-names-lookup. Goal is to get the `names.csv` file better populated over time, or find an existing source/API that can be used.
